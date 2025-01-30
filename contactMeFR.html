@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Lai Wah TSE Project Personnel</title>
+    <link rel="stylesheet"href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/59efdf92c9.js" crossorigin="anonymous"></script>
+<style>
+    body {
+      background-image: linear-gradient(rgba(91, 108, 173, 0.7),rgba(91, 108, 173, 0.7)), url('image/bg/wall.jpg');
+    }
+</style>
+    </head>
+   
+    <body>
+        
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="image/logo/logo.png"></a> 
+        
+        <div class="language">
+            <a href="index.html"><img src="image/logo/fr.gif"></a>  
+            <a href="EN.html"><img src="image/logo/usa.gif"></a> 
+        </div>
+             
+        <div class="nav-links"  id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="aboutMeFR.html">À PROPOS DE MOI</a></li>
+                <li><a href="competenceFR.html">COMPÉTENCE</a></li>
+                <li><a href="experiencesFR.html">EXPÉRIENCES</a></li>
+                <li><a href="educationFR.html">ÉDUCATION</a></li>
+                <li><a href="contactMeFR.html">CONTACTEZ-MOI</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Contactez-moi</h1>
+    <hr size="8" width="100%" color="red">  
+</section>
+
+<!--Contact Me content-->
+<section class="contact-me">
+
+    <div class="row">
+        <div class="contact-all">
+            <h1>Contacter</h1>
+            <p>
+                <div>
+                <i class="fa-solid fa-house-user"></i>
+                <span><h5>Adresse</h5> </span> <br>
+                    <p> &nbsp;&nbsp;12 rue du Pileu 91300 MASSY</P>
+                   
+                </div>
+                <div>  
+                <i class="fa-solid fa-phone"></i>
+                <span> <h5>Contact par téléphone</h5></span><br>
+                    <p>&nbsp;&nbsp;+33 612739493</p>
+                    
+                </div>
+                <div>
+                <i class="fa-solid fa-envelope"></i>
+                <span> <h5>Contacter par e-mail</h5></span><br>
+                     <p>&nbsp;&nbsp;laiwah76@gmail.com</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-download"></i>
+                    <span> <h5>Téléchargement le curriculum vitae</h5></span><br>
+                         <p>&nbsp;&nbsp;
+                             <a href ="file/cv.pdf" attributes-list download > Cliquez pour télécharger le CV </a>  
+                        </p>
+                        
+                    </div>
+            </p> 
+        </div>
+    
+        <div class="contact-all">
+            <section class="location" id="contentFrame">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2631.721007100961!2d2.2375572148483234!3d48.72992241769901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67848d82baab5%3A0x1a2d9473a6abcaf8!2s12%20Rue%20du%20Pileu%2C%2091300%20Massy!5e0!3m2!1sfr!2sfr!4v1646243052275!5m2!1sfr!2sfr" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" ></iframe>
+                
+            </section>
+        </div>
+    </div>
+</section>
+<!--Footer-->
+<section class="footer">
+    <h4>À propos de ce site Web</h4>
+    <p>Ce site Web est à des fins de recrutement uniquement, veuillez respecter les informations personnelles utilisées. <br> N'accepte aucune publicité et promotion.</p>
+<div class="icons">
+    <i class="fa-brands fa-weixin"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-solid fa-phone-rotary"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <li><a href="contactMeFR.html">CONTACTEZ-MOI</a></li>
+</div>
+<p>Fabriqué avec <i class="fa-solid fa-heart"></i> par Lai Wah TSE </p>
+
+</section>
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+        
+</script>
+    </body>
+</html>

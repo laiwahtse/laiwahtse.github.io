@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Lai Wah TSE Project Personnel</title>
+    <link rel="stylesheet"href="style.css"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playball&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<script src="https://kit.fontawesome.com/59efdf92c9.js" crossorigin="anonymous"></script>
+<style>
+    body {
+      background-image: linear-gradient(rgba(91, 108, 173, 0.7),rgba(91, 108, 173, 0.7)), url('image/bg/wall.jpg');
+    }
+</style>
+    </head>
+   
+    <body>
+        
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="image/logo/logo.png"></a>   
+
+        <div class="language">
+            <a href="index.html"><img src="image/logo/fr.gif"></a>  
+            <a href="EN.html"><img src="image/logo/usa.gif"></a> 
+        </div>
+        
+        <div class="nav-links"  id="navLinks">
+            <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutMeEN.html">ABOUT ME</a></li>
+                <li><a href="competenceEN.html">COMPETENCE</a></li>
+                <li><a href="experiencesEN.html">EXPERIENCES</a></li>
+                <li><a href="educationEN.html">EDUCATION</a></li>
+                <li><a href="contactMeEN.html">CONTACT ME</a></li>
+            </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Education</h1>
+    <hr size="8" width="100%" color="red">  
+</section>
+
+<!--Education content-->
+<section class="education">
+    <h2>Education Level</h2>
+    <P>Here is the Diploma passed in the past years.</P>
+
+    <div class="row">
+        <div class="education-all">
+            <img src="image/cert/SmallCertIM.jpg" class="thumbnail">
+            <h4>Greta MTE 94 <br>(France)</h4>
+            <p>Title (Level III) <br> TP Assistant Import-Export Professional </p>
+        </div>
+        <div class="education-all">
+            <img src="image/cert/smallCertMaster.gif"class="thumbnail">
+            <h4>University of Leicester  <br>(UK) </h4>
+            <p>MSc in Marketing (Master 2) <br> Marketing and Management </p>
+        </div>
+        <div class="education-all">
+            <img src="image/cert/smallCertDegree.gif"class="thumbnail">
+            <h4>  University of Abertay Dundee <br>(UK) </h4>
+            <p> Bachelor of Accounting <br>Accounting and Management</p>
+        </div>
+        <div class="education-all">
+            <img src="image/cert/college.gif" class="thumbnail">
+            <h4>Cartias Bianchi College of Careers <br> (HK)</h4>
+            <p>Diploma<br> Business Studies </p>
+        </div>
+    </div>
+</section>
+    <section class="line">
+        <img src="image/bg/line.gif"><br><br>
+    </section>  
+ <section class="education">
+    <h2>Certification of design and programme</h2>
+    <P>Here is the certification in design and programme for specific tools for web design and publishing.</P>
+
+    <div class="row">
+        <div class="education-all">
+            <img src="image/cert/dreamweave.gif" class="thumbnail">
+            <h4>Mastersoft Education Certificate </h4>
+            <p>Macromedia Dreamweaver & Web Design </p>
+        </div>
+        <div class="education-all">
+            <img src="image/cert/photoshop.gif"class="thumbnail">
+            <h4>Mastersoft Education Certificate </h4>
+            <p> Adobe PhotoShop </p>
+        </div>
+        <div class="education-all">
+            <img src="image/cert/flash.gif"class="thumbnail">
+            <h4>  Mastersoft Education Certificate</h4>
+            <p> Macromedia Flash 5</p>
+        </div>
+        <div class="education-all">
+            <img src="image/cert/Publisher.gif" class="thumbnail">
+            <h4>Mastersoft Education Certificate </h4>
+            <p> MIcrosoft Publisher </p>
+        </div>
+    </div>
+</section>
+    <section class="line">
+        <img src="image/bg/line.gif"><br><br>
+    </section>  
+<section class="education">
+    <h2>Professional Certification</h2>
+    <P>Here is the Professional Certification:London of Chamber Commerce and Industry Examinations Board (LCCI) passed in the past years.</P>
+
+    <div class="row">
+      
+        <div class="education-all">
+            <img src="image/cert/book-keeping.gif" class="thumbnail" width="600px">
+            <h4>LCCI (II level) <br>(HK)</h4>
+            <p>book-keeping and Accounts </p>
+        </div>
+          
+        <div class="education-all">
+            <img src="image/cert/Business Statistics.gif"class="thumbnail">
+            <h4> LCCI (II level) <br>(HK) </h4>
+            <p> Business Statistics </p>
+        </div>
+        
+    </div>
+</section>
+    <section class="line">
+        <img src="image/bg/line.gif"><br><br>
+    </section>  
+<!--Footer-->
+<section class="footer">
+<h4>About this web site</h4>
+<p>This website is for recruiting purpose use only, please respect the personal information using. <br> Not accepted any advertising and promotion.</p>
+<div class="icons">
+    <i class="fa-brands fa-weixin"></i>
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-solid fa-phone-rotary"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <li><a href="contactMeEN.html">CONTACT ME</a></li>
+</div>
+<p>Made with <i class="fa-solid fa-heart"></i>  by Lai Wah TSE </p>
+
+</section>
+
+<!--JavaScript for Toggle Menu-->
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+        
+</script>
+    </body>
+</html>
